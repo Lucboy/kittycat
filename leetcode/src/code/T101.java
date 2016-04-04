@@ -1,4 +1,4 @@
-package leed_code;
+package code;
 
 import java.util.LinkedList;
 

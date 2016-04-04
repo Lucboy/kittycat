@@ -1,4 +1,4 @@
-package leed_code;
+package code;
 
 public class T88 {
 

@@ -1,6 +1,4 @@
-package leed_code;
-
-import java.util.LinkedList;
+package code;
 
 import dataStruct.TreeNode;
 
@@ -39,6 +37,7 @@ public class T226 {
 	        }
 	        invertTree(root.left);
 	        invertTree(root.right);
+	        
 	        return root;
 	        
 	    }
