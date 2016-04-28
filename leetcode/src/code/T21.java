@@ -4,9 +4,23 @@ public class T21 {
 	public static class ListNode{
 		int val;
 		ListNode next;
-		ListNode(int x)
+	  public ListNode(int x)
 		{
 			this.val=x;
+		}
+		public static ListNode arrayToList(int[] arr)
+		{
+			if(arr==null||arr.length==0)
+				return null;
+			ListNode p= new ListNode(arr[0]);
+			ListNode next=p;
+			for(int i=1;i<arr.length;i++)
+			{
+				next.next=new ListNode(arr[i]);
+				next=next.next;
+				
+			}
+			return p;
 		}
 	}
 
